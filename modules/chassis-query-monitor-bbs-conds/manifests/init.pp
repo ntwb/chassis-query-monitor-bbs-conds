@@ -1,6 +1,7 @@
 # Install the Query Monitor bbPress & BuddyPress Conditionals plugin
-class querymonitorbbsconds (
-  $path = '/vagrant/extensions/query-monitor-bbs-conds'
+class chassis-query-monitor-bbs-conds (
+  $config,
+  $path = '/vagrant/extensions/chassis-query-monitor-bbs-conds'
 ) {
   if ! ( File['/vagrant/content'] ) {
     file { '/vagrant/content':

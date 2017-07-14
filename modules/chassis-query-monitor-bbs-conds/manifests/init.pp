@@ -1,5 +1,5 @@
 # Install the Query Monitor bbPress & BuddyPress Conditionals plugin
-class chassisquerymonitorbbsconds (
+class chassis-query-monitor-bbs-conds (
 	$config,
 	$path = '/vagrant/extensions/chassis-query-monitor-bbs-conds'
 ) {
